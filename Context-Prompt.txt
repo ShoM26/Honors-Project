@@ -1,0 +1,50 @@
+# Honors Project Context: Multilingual Handwriting Recognition for Vital Records
+
+## Project Overview
+This is an honors project extending a professor's PhD research on offline handwriting recognition for Birth, Marriage, and Death documents. The goal is to build an object detection model capable of recognizing handwritten text in vital records from any language, time period, and country.
+
+## Technical Stack
+- **Primary Model**: Ultralytics YOLOv8 for object detection
+- **Development Environment**: Google Colab (currently free tier, may upgrade to Pro for training month)
+- **Data Management**: Roboflow for dataset preparation and annotation
+- **Programming Language**: Python
+- **Hardware Constraints**: No local GPU access, relying on Google Colab's cloud computing
+
+## Dataset Details
+- **Current Focus**: Primarily Brazilian Portuguese documents from Brazilian archives
+- **Target Scope**: Mixed documents from all time periods and countries (multilingual approach)
+- **Dataset Size**: Currently adequate, will use data augmentation to virtually expand
+- **Handwriting Styles**: Multiple different handwriting styles across documents
+- **Annotation Method**: Bounding boxes around semantically meaningful text regions (e.g., "bride's name", "date of marriage", "place of birth")
+
+## Architecture Approach
+- **Detection Strategy**: Using YOLO to identify larger text regions rather than individual characters or words
+- **Recognition Pipeline**: Building on professor's existing work which used a separate CNN after object detection for deep learning OCR
+- **Model Integration**: Planning to use weights from professor's existing model as starting point
+- **Multilingual Strategy**: Training one unified model rather than separate models per language
+
+## Project Foundation
+- **Existing Research**: Continuation of professor's PhD research with established CNN-based OCR component
+- **New Contribution**: Still being decided, likely focuses on multilingual capability and/or improved detection methods
+- **Guidance**: Working under professor's supervision with access to existing research and models
+
+## Timeline and Validation
+- **Completion Target**: Beginning of December
+- **Current Status**: About to run professor's existing code to understand the current pipeline
+- **Validation Strategy**: Web scraping for additional test data from different sources
+- **Success Metrics**: Both detection accuracy and text recognition accuracy
+
+## Immediate Next Steps
+1. Run existing professor's code to understand current model architecture and performance
+2. Finalize decision on pipeline architecture (YOLO + separate OCR vs integrated approach)
+3. Determine specific novel contribution to add to existing research
+4. Begin training with current Portuguese dataset
+
+## Key Constraints and Considerations
+- **Computational Limits**: Dependent on Google Colab's free tier limitations (may upgrade for one month)
+- **Data Storage**: All datasets managed through Roboflow's cloud storage
+- **Multilingual Challenge**: Attempting to handle multiple languages with unified model architecture
+- **Historical Documents**: Dealing with varying document quality, age, and formatting across different eras
+- **Handwriting Variability**: Must handle diverse handwriting styles, both cursive and print formats
+
+This project combines computer vision object detection with optical character recognition in a challenging multilingual, multi-temporal document processing context, building on established research while adding novel capabilities.
