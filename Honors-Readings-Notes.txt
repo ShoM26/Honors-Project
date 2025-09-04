@@ -1,0 +1,50 @@
+Genealogical Ethics in the United States and the Popularization
+of Genealogical Research in the Digital Age - Thomas Daniel Knight
+Notes: The article tells of accounts where people get made up and and information gets mangled/lost in the online abyss. Page 13-14
+Quotes: "trees should
+promote careful research and presentation of research findings that follow professional best
+practices to tell the stories of those who came before with sensitivity and care, respecting
+their unique individuality as separate and discrete human beings." Page 2
+
+"As noted, I do not intend to argue that such issues
+should remain hidden or obscured, but I do advocate telling them with caution, sensitivity,
+and respect for all stakeholders, both those deceased and those now living." Page 9
+
+"One of the greatest challenges in genealogical research in the digital age is the proliferation of chronic misidentifications, usually brought about through the process of lumping
+several separate and discrete individuals into a single individual who never existed at all.
+Incautious researchers copy, paste, and download material such as this, adding it into their
+online databases." Page 13
+
+"More than ever before, the digital platforms available today for researching and sharing
+information have led to the widespread proliferation of false or misleading information.
+Researchers, especially lay researchers and online enthusiasts, should always remember
+that they study past individuals with unique, separate, and discrete identities (Knight 2022)." Page 16
+
+Purpose: Understanding domain knowledge, understanding the common ethical practices in the genealogy field
+
+
+A Hybrid Approach to Bangla Handwritten OCR:
+Combining YOLO and an Advanced CNN
+Notes: Lots of good charts with useful information. Makes me think if we will have to do a similar detection-recognition kind of system
+Quotes: 
+
+"Although the small model has a higher precision
+score, the medium model demonstrates overall better
+performance in terms of Recall and Mean IoU. Therefore, the YOLOv8 medium model was selected for the pipeline" Page 16
+
+"This demonstrates that EfficientNetB4 performs competitively, achieving strong results both in individual accuracy metrics
+and in the overall average accuracy. It should be
+clear that the discrepancy in datasets could impact the
+comparability of the results." Page 18
+
+"This suggests that the model trained
+on augmented data is more robust and better at handling noisy or misaligned images, resulting in higher
+precision and recall rates after correction." Page 19
+Purpose: Understanding OCR(optical character recognition), NLP(natural language processing), RNN(Recurent Neural Network), Example use of YOLO, Example use of roboflow, non-Latin alphabet character recognition
+
+
+A Novel Framework for Saraiki Script Recognition Using Advanced Machine Learning Models (YOLOv8 and CNN)
+
+Notes: Utilizes transfer learning and data augmentation, real good chart on Page 5
+Quotes:
+Purpose: Paper focuses on OCR for non latin alphabet languages specifically Saraiki, Example use of YOLOv8, Heavy emphasis on OCR
