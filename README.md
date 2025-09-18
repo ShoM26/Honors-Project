@@ -22,7 +22,7 @@ Input Document → YOLOv8 Detection → Semantic Region Extraction → CNN-based
 ```
 
 **Detection Model**: Ultralytics YOLOv8 for semantic text region identification  
-**Recognition Model**: Deep learning CNN
+**Recognition Model**: Off-the-shelf OCR model
 **Training Strategy**: Transfer learning with multilingual data augmentation
 
 ## Dataset
@@ -57,14 +57,14 @@ This work extends existing document processing research with the following novel
 
 1. **Multilingual Unified Architecture**: Single model handling multiple languages vs. language-specific models
 2. **Historical Document Robustness**: Enhanced performance on documents with varying age and quality
-3. **Semantic Region Detection**: YOLOv8 adaptation for meaningful text region identification
-4. **Cross-Cultural Validation**: Validation across documents from different countries and administrative systems
+3. **Completing the OCR part of the pipeline**: The model will predict a text outcome from the given written text fields
 
 ## Related Work
 
 This project builds upon the foundational research by Dr. Nishat Majid in Offline Handwritting Recognition. Key differences and extensions:
 - Increased Computing Power
 - Recent Industry Inovations
+- Completing the OCR pipeline
 
 ## Citation
 
@@ -88,3 +88,4 @@ Linkedin URL - https://www.linkedin.com/in/merrick-shorter/
 
 ---
 *This project was completed as part of an Honors Research Program at Ohio Dominican University under the supervision of Dr. Nishat Majid.*
+
