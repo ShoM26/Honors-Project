@@ -1,0 +1,2 @@
+9/4/25: Took me long enough to get started on the actual project part. Prior to this I have read papers for the Lit Review but finally I am working with code. I initialized the repo in git and transferred it to GitHub, wrote out a README.md, and 
+recreated the project that Dr. Majid did. This weekend my goal is the write out my lit review and nail down the extra bit I am adding to this project before our meeting on Monday.
