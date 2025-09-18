@@ -1,0 +1,12 @@
+Phase 1: Starting with what we have
+- Manually test on some of data
+- Scrape from web additional data different languages 75 imgs some English
+- Add CNN to do handwriting recognition model off the shelf socket it in.
+- Find library for off the shelf CNN
+Phase 2:
+
+Phase 3: 
+
+Phase 4: 
+
+Phase 5:
