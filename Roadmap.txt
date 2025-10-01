@@ -4,7 +4,11 @@ Phase 1: Starting with what we have
 - Add CNN to do handwriting recognition model off the shelf socket it in.
 - Find library for off the shelf CNN
 Phase 2:
-
+- Calamari documentation for handwriting
+- data preprocessing if fails the first time
+- Maybe our own model
+- opensource google ocr handwritten
+- Roboflow bounding boxes 
 Phase 3: 
 
 Phase 4: 
