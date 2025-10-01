@@ -4,3 +4,5 @@ recreated the project that Dr. Majid did. This weekend my goal is the write out 
 9/18/25: Had a meeting with Dr. Majid today and now I understand my next steps. I need to add the ocr part to the project. I narrowed down my sources and updated my roadmap as well as scraped the web for some data.
 
 9/26/25: Tested the prediction on individual data, looked into Calamari the off the shelf ocr model I'll be using. Planning to web scrape for more data tonight.
+
+10/1/25: Got my next steps from Dr. Majid and I will begin working on those soon. I need to do more research on calamari and get it working before we create a pipeline
