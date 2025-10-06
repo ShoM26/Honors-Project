@@ -4,10 +4,11 @@ Phase 1: Starting with what we have
 - Add CNN to do handwriting recognition model off the shelf socket it in.
 - Find library for off the shelf CNN
 Phase 2:
-- Calamari documentation for handwriting
+- Calamari documentation for handwriting - https://calamari-ocr.readthedocs.io/en/latest/doc.dataset-formats.html
 - data preprocessing if fails the first time
 - Maybe our own model
-- opensource google ocr handwritten
+- opensource google ocr handwritten (Tesseract mainly for printed text, extra work for it to do handwritten)
+- scrape 37 more images English prefered
 - Roboflow bounding boxes 
 Phase 3: 
 
