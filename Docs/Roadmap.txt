@@ -11,7 +11,10 @@ Phase 2:
 - scrape 37 more images English prefered
 - Roboflow bounding boxes 
 Phase 3: 
-
+- TrOCR feed it good cursive and see how it works: Performs pretty well with cursive if it is neat and clear. the only concern is wether or not its contained within the correct box
+- Python script to download images TinyTask Macro
+- Automator for mac. What is windows equivalent? not worth it
+- Annotate 5-10
 Phase 4: 
 
 Phase 5:
