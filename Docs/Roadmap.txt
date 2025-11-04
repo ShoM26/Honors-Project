@@ -16,5 +16,9 @@ Phase 3:
 - Automator for mac. What is windows equivalent? not worth it
 - Annotate 5-10
 Phase 4: 
-
+- Annotate 20 datapoints
+- Train in colab importing from roboflow
+- extracting region of interest
+- on historical document how many people have done this?
+MDPI HDIR
 Phase 5:
