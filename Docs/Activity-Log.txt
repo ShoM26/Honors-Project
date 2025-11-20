@@ -12,3 +12,5 @@ recreated the project that Dr. Majid did. This weekend my goal is the write out 
 10/10/25: Began creating the roboflow dataset and annotating. Tossed some terrible data and scraped some more good data that I have to annotate soon.
 
 10/23/25: gone are the days of manually scraping data, downloaded a software to do macros which will make this much easier also tested TrOCR on cursive and I am happy with the results. Need to look into how to transfer learn on the model.
+
+11/19/25: Cant remember the last time I worked on this project but whenever it was it was not and it was undocumented. Plan this week is to knock out a lot of the big work now that we have an idea of where we want do go with it. Planning on presenting at the COF poster showcase in February which should be fun. Today I wrote a script to help me label my images because Dr. Majid said we should not do it on roboflow to increase privacy. I then proceeded to annotate all 20 images I need to train the object detection model. that will be the next step which I start tomorrow.

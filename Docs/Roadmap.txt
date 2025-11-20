@@ -17,8 +17,9 @@ Phase 3:
 - Annotate 5-10
 Phase 4: 
 - Annotate 20 datapoints
-- Train in colab importing from roboflow
+- Train in colab importing from roboflow -- no roboflow python script to annotate data
 - extracting region of interest
 - on historical document how many people have done this?
 MDPI HDIR
+Poster: automated pipeline for object dectection and Hand written text extraction from historical forms to csv.
 Phase 5:
