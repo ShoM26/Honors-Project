@@ -16,3 +16,7 @@ recreated the project that Dr. Majid did. This weekend my goal is the write out 
 11/19/25: Cant remember the last time I worked on this project but whenever it was it was not and it was undocumented. Plan this week is to knock out a lot of the big work now that we have an idea of where we want do go with it. Planning on presenting at the COF poster showcase in February which should be fun. Today I wrote a script to help me label my images because Dr. Majid said we should not do it on roboflow to increase privacy. I then proceeded to annotate all 20 images I need to train the object detection model. that will be the next step which I start tomorrow.
 
 11/20/25: Had the COF meeting today and Nana is cool with presenting my work. got google 1 pro for students today, responded to contracted work, connected with Betsy, and have a call planned with Ethan tomorrow and hoping to train my yolo model tomorrow. We move!
+
+11/21/25: Got the training of the model down. Gotta get some good accuracy soon
+
+11/23/25: Training it so far has got it stuck between .62 and .65 mean average precision. Going to try and talk to Dr. Majid to see how I can get that higher
