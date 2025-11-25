@@ -20,3 +20,5 @@ recreated the project that Dr. Majid did. This weekend my goal is the write out 
 11/21/25: Got the training of the model down. Gotta get some good accuracy soon
 
 11/23/25: Training it so far has got it stuck between .62 and .65 mean average precision. Going to try and talk to Dr. Majid to see how I can get that higher
+
+11/24/25: Realized I could optimize it by making the data greyscale and removing lrflip because it confuses the model
