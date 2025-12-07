@@ -1,0 +1,5 @@
+path: /content/drive/MyDrive/Honors-Project-Training-Data  # This will be the mount point in Colab
+train: images/train
+val: images/val
+nc: 1                             # Number of classes
+names: ['machine-printed-text']   # Class names
