@@ -22,3 +22,5 @@ recreated the project that Dr. Majid did. This weekend my goal is the write out 
 11/23/25: Training it so far has got it stuck between .62 and .65 mean average precision. Going to try and talk to Dr. Majid to see how I can get that higher
 
 11/24/25: Realized I could optimize it by making the data greyscale and removing lrflip because it confuses the model
+
+1/23/25: Almost 2 months later and very minimal progress. got confirmation that my poster has been accepted into the COF poster showcase and I will be testing it at the Honors Scholarship presentation on the 13th. Trying to workout a way I can attend the showcase. Troubleshooting ways to increase accuracy like introducing background images to teach it what is not machine printed text maybe increasing image resolution would help too but not sure.
