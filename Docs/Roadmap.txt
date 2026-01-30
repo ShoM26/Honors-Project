@@ -16,10 +16,16 @@ Phase 3:
 - Automator for mac. What is windows equivalent? not worth it
 - Annotate 5-10
 Phase 4: 
-- Annotate 20 datapoints
-- Train in colab importing from roboflow -- no roboflow python script to annotate data
+- Annotate 20 datapoints done
+- Train in colab importing from roboflow -- no roboflow python script to annotate data done
 - extracting region of interest
-- on historical document how many people have done this?
+- on historical document how many people have done this? not many
+
+what third party should I use for authentication 
 MDPI HDIR
 Poster: automated pipeline for object dectection and Hand written text extraction from historical forms to csv.
 Phase 5:
+
+my own augmentation: look at the parameters
+preprocess for black and white data: 
+for loop to run model for less epochs more frequently
