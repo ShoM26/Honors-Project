@@ -1,36 +1,37 @@
 ﻿# Honors-Project
-# Multilingual Handwriting Recognition for Historical Vital Records
+# Streamlining Ancestry: A Lightweight Document Processing Pipeline for Historical Document Data Extraction 
 
-**An Honors Research Project extending deep learning approaches for offline handwriting recognition in Birth, Marriage, and Death documents across multiple languages and time periods.**
+**Honors Research Project focused on utilizing Deep Learning practices to create systems to quickly extract data from historical documents (Marriage, Birth, Death).**
 
 ## Abstract
 
-This project develops a multilingual object detection and OCR pipeline for extracting handwritten information from historical vital records (Birth, Marriage, and Death certificates) using YOLOv8 and deep learning OCR. Building upon Dr. Nishat Majid's foundational work in document processing, this research extends the capability to handle documents from multiple languages, countries, and time periods with a unified model architecture.
+This project develops a system containing object detection and OCR networks for extracting handwritten information from historical vital records (Birth, Marriage, and Death certificates) using YOLOv8 and deep learning OCR. Building upon Dr. Nishat Majid's foundational work in document processing, this research extends the capability to handle documents from multiple languages, countries, and time periods with a unified model architecture.
 
 ## Key Features
 
-- **Multilingual Support**: Unified model capable of processing documents in multiple languages
+- **Accuracy**: Identifies one document format with a high level accuracy
+- **Undemanding**: Requires 15-20 pieces of labeled data to train
 - **Semantic Region Detection**: YOLOv8-based detection of meaningful text regions (names, dates, places)
-- **Historical Document Robustness**: Handles varying document quality, formats, and handwriting styles
 - **End-to-End Pipeline**: Complete workflow from raw document images to structured text extraction
+- **Replicable**: Easily replicable to quickly create a model that will recognize a new document format
 - **Web-Scale Validation**: Additional validation dataset scraped from diverse web sources
 
 ## Architecture
 
 ```
-Input Document → YOLOv8 Detection → Semantic Region Extraction → CNN-based OCR → Structured Output
+Input Document → YOLOv8 Detection → Semantic Region Extraction → TrOCR → Structured Output
 ```
 
-**Detection Model**: Ultralytics YOLOv8 for semantic text region identification  
-**Recognition Model**: Off-the-shelf OCR model
-**Training Strategy**: Transfer learning with multilingual data augmentation
+**Detection Model**: Ultralytics YOLOv8 for semantic region of interest (ROI) identification  
+**Recognition Model**: Off-the-shelf TrOCR (Transformer based Optical Character Recognition)
+**Output**: Extracted text is entered into csv files which can be easily fed into web databases
 
 ## Dataset
 
-- **Primary Dataset**: BMD (Birth/Marriage/Death certificates)
-- **Augmentation**: Roboflow-based data augmentation for increased dataset diversity
+- **Primary Dataset**: Web-scraped publicly available data 
+- **Augmentation**: Built in YOLO data augmentation with the exception of fliplr
 - **Validation Data**: Web-scraped documents from multiple countries and time periods
-- **Annotation**: Semantic bounding boxes for meaningful text regions (bride's name, date of marriage, place of birth, etc.)
+- **Annotation**: manually labeled data using bounding boxes via annotation script
 
 *Note: Dataset availability and access instructions will be updated based on privacy requirements.*
 
@@ -55,9 +56,9 @@ Input Document → YOLOv8 Detection → Semantic Region Extraction → CNN-based
 
 This work extends existing document processing research with the following novel contributions:
 
-1. **Multilingual Unified Architecture**: Single model handling multiple languages vs. language-specific models
-2. **Historical Document Robustness**: Enhanced performance on documents with varying age and quality
-3. **Completing the OCR part of the pipeline**: The model will predict a text outcome from the given written text fields
+1. **Complete Pipeline**: Combining multiple Neural Networks to solve this problem
+2. **Undemanding**: Requiring only 15-20 pieces of labeled data 
+3. **Replicability**: Model can be used to recognize any document type to process mass amounts of documents very quickly
 
 ## Related Work
 
@@ -88,4 +89,5 @@ Linkedin URL - https://www.linkedin.com/in/merrick-shorter/
 
 ---
 *This project was completed as part of an Honors Research Program at Ohio Dominican University under the supervision of Dr. Nishat Majid.*
+
 
