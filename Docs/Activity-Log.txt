@@ -28,3 +28,11 @@ recreated the project that Dr. Majid did. This weekend my goal is the write out 
 1/30/25: Been working on this a lot recently just havent updated the activity log. After talking to Dr. Majid we realizes we had too many different sized classes for the network to recognize. We are now selecting just the unique words around the ROI which will help standardize class sizes and cut down on the number of classes. I carefully relabeled every peice of data however some of them seem to have different labels recorded than others. Really quite odd. Will probably have to go back and relabel again. Working on a script to show the labels given the picture and the text file.
 
 2/4/26: The avgMAP is not raising but the classes are all accounted for and the loss is falling. Just not making much sense to me
+
+2/17/26: I relabeled all the data which took ~2 hours and inmproved the script to add an undo key stroke and a counter for the labels. Who would have guessed that if you dont have the same number of labels the model sucks. Anyway I have 99.5% accurate model now. it took .123 hours to train on 20 total pieces of data 15 in the training set and 5 in the validation set. MAJOR BREAKTHROUGH!!!!
+
+2/18/26: I created psuedo-code for the math to operate on the offsets to get the ROI. Will create the script that splices it tomorrow
+
+2/19/26: I have created the script that splices the ROI. it took ~2 hours to make with the help of Gemini and some messing around with the coordinates. Got the pipeline working but TrOCR fails at numbers so checking out easyOCR. probably will end up using easyocr for numbers and trOCR for handwriting/text
+
+2/23/26: I have been working on my poster for the past few days. I think I have a final version that I will send to staples or somewhere. OCR models looking sus ngl.
