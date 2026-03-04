@@ -43,7 +43,7 @@ Input Document → YOLOv8 Detection → Gather Offset with Anchor Based Referenc
 - End-to-End Accuracy: 
 
 ### Sample Outputs
-![Example of journey through Pipeline](images/pipeline.png)
+![Example of journey through Pipeline](Images/Pipeline.png)
 
 ## Technical Contributions
 
@@ -82,6 +82,7 @@ Linkedin URL - https://www.linkedin.com/in/merrick-shorter/
 
 ---
 *This project was completed as part of an Honors Research Program at Ohio Dominican University under the supervision of Dr. Nishat Majid.*
+
 
 
 
