@@ -36,3 +36,11 @@ recreated the project that Dr. Majid did. This weekend my goal is the write out 
 2/19/26: I have created the script that splices the ROI. it took ~2 hours to make with the help of Gemini and some messing around with the coordinates. Got the pipeline working but TrOCR fails at numbers so checking out easyOCR. probably will end up using easyocr for numbers and trOCR for handwriting/text
 
 2/23/26: I have been working on my poster for the past few days. I think I have a final version that I will send to staples or somewhere. OCR models looking sus ngl.
+
+2/27/26: Presentation day. Lets get fired up!
+
+2/29/26: Incredible experience presenting the other day. Learned a lot but a little unsure of where to go from here 
+
+3/5/26: Spoke to Dr. Majid and we're back on track. I have a plan and I look forward to executing it. Beginning to write the paper like I said I would do forever ago 
+
+3/7/26: Began writting the paper today. Very rough in the beginning but you have to start somewhere. very paper heavy couple weeks for me with the ecology research paper as well. 
