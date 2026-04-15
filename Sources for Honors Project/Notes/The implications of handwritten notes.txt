@@ -1,0 +1,19 @@
+Recent impact of HTR
+
+historians can begin to confidently use large datasets derived from handwritten instead of relying on in person visits to archives.
+
+Offers a step-change in accuracy beyond OCR for printed text. Scholars remain unaware of the inaccuact of OCR-transcribed text which can contain complex errors that affect search, processing and interpretation.
+
+Without the correction of OCR datasets, which is nexessary for historical scholars to accuractly read texts at full-length, societal memory construction could be influenced. 
+
+HTR provides the means to create more accurate transcriptions from existing digital images, particularly those with complex fonts or layouts.
+
+HTR has the potential to disrupt who is excluded, disposed, disinherited, and disembodied by current archival practices.
+
+HTR is dependent on digitsation, but glam's patchwork approach to digitization stratagies, workflows, and priorities mean collections teem with diverse political, legal, and cultureal investments and controversies. in a way that undermines positivist ideas of archival practices being neutral. The provenance of digital resources and the potential motivations in authorizing certain parts of heritage into account becomes increasingly important:those deploying HTR technology on historical collections need to be critical of how they may follow or resist literary, historical, and cultural canons. Without this, there is a real risk that HTR outputs only serve to cement hegemonic archival structures.
+
+Legal considerations
+
+HTR work is likely to make deducing the ownership of digitized content more complex. 
+
+In addition, General Data Protection Regulation issues may arise with the use of HTR. Privacy has always been a concern for historians. there is a responsibility to the dead as well as the living. Howvere, removal of human moderaters may exacerbate situations where information about the dead can cause social harm to the living.  Handwritten materials often contain traceable personal information, and disclosure may have implications not only for authors, but their next of kin and descendants. Anonymisations, data minimization, and timely deletion may be necessary to comply with regulatory contexts, with specific strategies needed for ethical and legal handling of particular materials. Institutions and individuals should consider privacy when preparing to transcribe mass-digitized private correspondence. Sensitivity review is alreadt a common task for archivists, including with born-digital collections such as email correspondence.

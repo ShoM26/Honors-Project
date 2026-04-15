@@ -1,0 +1,23 @@
+Genealogy as family lineage or family history is rarely mentioned in the digital humanities
+literature; however, the modicum of humanists and articles in recent years highlighting the
+historical value of digital humanities and genealogical records is showing promising results
+toward recognition within the field. A literature review by Van Leeuven and Zijdeman
+(2014) documenting the use of genealogical documents, such as electronic census records
+and vital registers by historians, contributed important insights about social, economic and
+labor history, such as the education, occupation and property of working women
+
+Digital Humanities Quarterly’s recognition of electronic genealogy databases, including
+production and modification of databases, and users of digital genealogy resources
+(Crymble, 2016) are showing slow but positive inroads toward acceptance in the field.
+Discussion of browsing behavior, navigation, searching and metadata expands the view of
+digital resources beyond historians, and provides clear examples of how genealogy can fit
+within the heterogeneous field and serve as an important source of academic scholarship.
+
+The visualization of data and modeling illustrates the equilibrium between production
+and critical analysis. Whether variants or strongly correlated data, hypotheses can be tested
+for further exploration (Hearst, 2003). Jockers (2014) and Russell (2011) demonstrated how
+visualization can be produced through the use of API’s, mining existing databases and data
+files of social media and literature. In line with these practices, genealogists use existing
+database corpora (e.g. Ancestry.com, HeritageQuest and FamilySearch,) to create familial
+representations and establish relationships among personal family trees, or connect with
+distant relatives through a common identified ancestor. 

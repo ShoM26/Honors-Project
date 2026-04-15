@@ -1,0 +1,1 @@
+Most medical records are still paper and entail difficulties in terms of data extraction that remains manual. The adoption of  electronic medical record sysystems promotes efficiency by developing an automated process of data extraction however it is expensive

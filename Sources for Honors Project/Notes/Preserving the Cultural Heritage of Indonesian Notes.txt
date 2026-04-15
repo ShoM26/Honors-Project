@@ -1,0 +1,25 @@
+The role of digitalization in preserving cultural heritage in Indonesia. 
+
+	crucial in safeguarding cultural heritage
+
+	ensuring that traditional knowledge, artifacts, and historical records 	remain accessible for future generations. 
+
+Benefits of digitalization in Indonesian libraries
+
+	digitalization enhances accessibility, efficiency, and security.
+
+	digital access to historical archives.
+
+	Another key advantage of digital preservation is its efficiency in 	content management. Digital collections can be indexed, searched, and 	retrieved faster than physical archives.
+
+Challenges of digital preservation 
+
+	Reliance on digital systems means that technical failures, software 	obsolescence, or data corruption can lead to the loss of valuable 	information. To combat this libraries should implement a robust digital 	preservation framework, including regular data migration, cloud based 	storage solutions, and redundant backup systems.
+
+	Another concern is potential loss of quality in digital conversion. While 	high-resolution scanning can improve preservation accuracy, some aspects 	of the authenticity of physical objects cannot be replicated digitally.
+
+	Security risks are another key issue in digital preservation. Digital 	collections are vulnerable to cyber threats, including hackings, 	unauthorized access, and data breaches.
+
+Recommendations for sustainable digital preservation
+
+	Developing clear legal frameworks: copyright laws should be updated to 	address digital repositories, ensuring a balance between legal protection 	and public accessability
