@@ -4,8 +4,23 @@
 **Honors Research Project focused on utilizing Deep Learning practices to create systems to quickly extract data from historical documents of one format (Marriage, Birth, Death).**
 
 ## Abstract
-
-This project develops a system containing object detection and OCR networks for extracting handwritten information from historical vital records (Birth, Marriage, and Death certificates) using YOLOv8 and deep learning OCR. Building upon Dr. Nishat Majid's foundational work in document processing, this research extends the capability to handle documents from multiple languages, countries, and time periods with a unified model architecture.
+The rise in popularity of digital genealogical li-
+braries has brought a complexity to image databases. Records
+are harder to search and require indexing. We propose a pipeline
+to quickly extract data from scanned documents. This pipeline
+is transferable to many document formats and requires minimal
+manual labor to train the system. Our pipeline utilizes YOLOv8
+for object detection and EasyOCR and TrOCR for optical
+character recognition. The YOLOv8 model is trained to recognize
+consistent machine printed fields which act as anchors for regions
+of interest. Our YOLOv8 model achieved a mAP50 of .995, our
+EasyOCR model achived a CRA of 85.4%, and our TrOCR
+model achieved a disappointing CRA of 17.16%. This research
+has concluded that cursive handwriting is difficult to recognize
+especially in instances where data extends into other fields. We
+conclude the paper by addressing the balance between data
+privacy and public accessibility and the responsibilities entrusted
+to users of this technology.
 
 ## Key Features
 
@@ -29,7 +44,6 @@ Input Document → YOLOv8 Detection → Gather Offset with Anchor Based Referenc
 
 - **Primary Dataset**: Virginia Marriage Documents October 1960 
 - **Augmentation**: Built in YOLO data augmentation with the exception of fliplr and scale
-- **Validation Data**: 15:5 split
 - **Annotation**: manually labeled data using bounding boxes via annotation script
 
 *Note: Dataset availability and access instructions will be updated based on privacy requirements.*
@@ -37,10 +51,8 @@ Input Document → YOLOv8 Detection → Gather Offset with Anchor Based Referenc
 ## Results
 
 ### Performance Metrics
-*[To be added upon completion]*
 - Detection Accuracy (mAP50): 99.5% 
-- Recognition Accuracy (Character-level): 
-- End-to-End Accuracy: 
+- Recognition Accuracy: 85.4% CRA 58.99% WRA 
 
 ### Sample Outputs
 ![Example of journey through Pipeline](Images/Pipeline.png)
